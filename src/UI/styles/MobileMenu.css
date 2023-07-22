@@ -1,0 +1,12 @@
+.mobile_menu {
+  cursor: pointer;
+  display: none;
+  font-size: 32px;
+  color: #fff;
+}
+
+@media (max-width: 999px) {
+  .mobile_menu {
+    display: block;
+  }
+}

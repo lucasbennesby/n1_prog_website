@@ -1,0 +1,30 @@
+.inputs input {
+  width: 350px;
+  margin: 10px 20px 10px 0px;
+  text-align: left;
+  padding: 5px;
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  box-shadow: 1.5px 1.5px 2px rgb(0, 0, 0, 0.75);
+}
+.inputs input:focus {
+  transform: translateY(4px);
+  width: 345px;
+  box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.75);
+
+  outline: 0.2px solid rgb(0, 0, 0, 0.2);
+}
+
+@media (max-width: 999px) {
+  .inputs input {
+    width: 275px;
+  }
+  .inputs input:focus {
+    transform: translateY(4px);
+    width: 270px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.75);
+
+    outline: 0.2px solid rgb(0, 0, 0, 0.2);
+  }
+}

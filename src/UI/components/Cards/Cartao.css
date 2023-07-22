@@ -1,0 +1,65 @@
+.card {
+  height: 100%;
+  width: 100%;
+
+  transform-style: preserve-3d;
+
+  position: relative;
+
+  border-radius: 5px;
+  border: 7px solid #fff;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+
+  transition: transform 1000ms;
+}
+.card-front,
+.card-back {
+  height: 100%;
+  width: 100%;
+
+  backface-visibility: hidden;
+
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Montserrat;
+  font-weight: 800;
+  font-size: 30px;
+
+  color: #fff;
+}
+.texto-front {
+  height: 100%;
+  width: 100%;
+
+  backface-visibility: hidden;
+
+  position: absolute;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #fff;
+  pointer-events: none;
+}
+.imgCartao {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.flip {
+  transition: transform 1000ms;
+  transform: rotateY(180deg);
+}
+.card-front {
+  background-color: #73d0ff;
+}
+.card-back {
+  background-color: #ffad66;
+
+  transform: rotateY(180deg);
+}

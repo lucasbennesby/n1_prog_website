@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 30px;
+  margin: 30px;
+  row-gap: 40px;
+  justify-items: center;
+}
+
+.grid-container > div:nth-child(n) {
+  display: flex;
+  align-items: center;
+}
+
+/* .grid-container > div > p {
+  border: 1px solid #fff;
+} */
+
+footer {
+  bottom: auto;
+}

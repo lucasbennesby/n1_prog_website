@@ -1,0 +1,24 @@
+.background {
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("C:\Users\Bic\Desktop\CODE\Projeto react\n1_prog_web_site\n1_prog_website\src\UI\imgs\Lucas Bennesby (6).png");
+}
+.button {
+  position: absolute;
+  left: 42%;
+  top: 60%;
+}
+@media (max-width: 999px) {
+  html,
+  body {
+    overflow: hidden;
+  }
+  body {
+    position: relative;
+  }
+  .button {
+    left: 23%;
+    top: 45%;
+  }
+}

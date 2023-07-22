@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  margin-left: -6px;
+}
+.rodape {
+  color: #fff;
+  display: flex;
+  height: 20vh;
+  background-color: #23232e;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 0;
+}
+.rodape ul {
+}
+.rodape li {
+  margin-left: 5px;
+  margin: 2px 0;
+}
+svg {
+  vertical-align: middle;
+  padding-right: 3px;
+}
+.copyright {
+  position: absolute;
+  font-size: 12px;
+  bottom: 0;
+  left: 45%;
+  opacity: 0.5;
+}
+
+@media (max-width: 999px) {
+  .rodape {
+    display: none;
+  }
+}
